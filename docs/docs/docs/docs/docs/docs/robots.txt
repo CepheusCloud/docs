@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://cepheuscloud.github.io/docs/sitemap.xml.gz
