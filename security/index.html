@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/docs">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.724094320441">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.724152119156">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -33,11 +33,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/docs/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.724094320441" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.724152119156" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.724094320441" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.724152119156" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.724094320441" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.724152119156" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -226,16 +226,41 @@
 <p>Most cryptocurrency users are only familiar with single key wallets, often known as externally owned accounts (EOAs). Such accounts include MetaMask, Exodus, Trust Wallet, etc. EOAs are protected by 12 or 24-word “seed phrases,” also known as private keys. If your private key is lost or stolen, you may lose total access to your funds.</p>
 <p>As such, single key wallets are not ideal for crypto projects with multiple owners – if the employee trusted with the private key goes rogue or is careless, the funds may be lost forever. Even if a project has a single owner, it’s still ill-advised to manage your funds alone, as there is the possibility of being the single point of failure. The best solution is using a multi-sig wallet, like Safe.</p>
 <p>We have three different development teams with different responsibilities. Safe allows us to create wallet that require approval from multiple team members before transaction are executed. We use Gnosis for every team wallet; deployment wallets, treasuries, partnership wallets and so on.</p>
-<doc-anchor-target id="wallets-we-use">
+<doc-anchor-target id="wallets-and-contracts-we-use">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#wallets-we-use">#</doc-anchor-trigger>
-        <span>Wallets we use</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wallets-and-contracts-we-use">#</doc-anchor-trigger>
+        <span>Wallets and contracts we use</span>
     </h2>
+</doc-anchor-target>
+<doc-anchor-target id="team-wallets">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#team-wallets">#</doc-anchor-trigger>
+        <span>Team wallets</span>
+    </h3>
 </doc-anchor-target>
 <ul>
 <li>Mint Treasury: 0x426B539Ca7F3050438843E51dBc5E2b0faCA3ea2 (2/2 signs)</li>
 <li>Team Wallet: 0xD07CBc187bF453B696864576A7EBe15FE45053Cb (2/2 signs)</li>
 <li>Deployer wallet: cepheusdeployer.eth (0x1D2F71714D19e6298F599ff28109084088CFe547)</li>
+</ul>
+<doc-anchor-target id="liquidity-and-dex">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#liquidity-and-dex">#</doc-anchor-trigger>
+        <span>Liquidity and DEX</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Token contract address: <strong>not deployed yet</strong></li>
+<li>Liquidity pool contract address: <strong>not deployed yet</strong></li>
+</ul>
+<doc-anchor-target id="nft-collections">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#nft-collections">#</doc-anchor-trigger>
+        <span>NFT collections</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Astrolist DNFT collection: 0x5e1BE81F76e0cfdbBc500cA1c62Cb24b6201B40C</li>
 </ul>
 <p><strong>What can we do with them?</strong></p>
 <p>These wallets are flexible, we can use them to:</p>
